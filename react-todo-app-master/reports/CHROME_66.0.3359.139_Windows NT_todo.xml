@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="1">
+
+  <testsuite name="todo"
+    errors="5" failures="1" hostname="" id="" package="todo" skipped="0"
+    tests="1" time="28.56" timestamp="Wed, 30 May 2018 08:50:09 GMT">
+  
+    <testcase name="Demo test todo-list" classname="todo" time="28.56" assertions="2">
+
+      <failure message="Testing if element &lt;.total-items&gt; contains text: &#34;共有2个&#34;. Element could not be located.">    at Object.Demo test todo-list (C:\Users\Administrator\Desktop\react-todo-app\test\e2e\todo.js:13:15)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#task&#34; using: css selector
+    at Object.Demo test todo-list (C:\Users\Administrator\Desktop\react-todo-app\test\e2e\todo.js:9:8)
+    at Module.call (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;#add&#34; using: css selector
+    at Object.Demo test todo-list (C:\Users\Administrator\Desktop\react-todo-app\test\e2e\todo.js:10:8)
+    at Module.call (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;#task&#34; using: css selector
+    at Object.Demo test todo-list (C:\Users\Administrator\Desktop\react-todo-app\test\e2e\todo.js:11:8)
+    at Module.call (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;#add&#34; using: css selector
+    at Object.Demo test todo-list (C:\Users\Administrator\Desktop\react-todo-app\test\e2e\todo.js:12:8)
+    at Module.call (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;.total-items&#34; using: css selector
+    at F.command (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\api\assertions\containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Users\Administrator\Desktop\react-todo-app\node_modules\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
